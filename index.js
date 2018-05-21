@@ -3,6 +3,6 @@ function findMatching(drivers, findName) {
 }
 
 function fuzzyMatch(drivers, letters) {
-  lettersLength = letters.length
+  const lettersLength = letters.length
   return drivers.filter(function (name) {return  })
 }
