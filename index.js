@@ -1,3 +1,3 @@
 function findMatching(drivers, string) {
-  drivers.filter(name => {return name === string;});
+  drivers.filter(function(name) => {return name === string;});
 }
